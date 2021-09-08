@@ -4,9 +4,13 @@ b = input("Geef nog een getal op.\n")
 
 if(a > b):
     max = a
-    print("A is het grootste getal: " + max)
+    min = b
+    print("Het maximum is: " + max)
+    print("Het minimum is: " + min)
 elif(a < b):
     min = a
-    print("A is het kleinste getal: " + min)
+    max = b
+    print("Het maximum is: " + max)
+    print("Het minimum is: " + min)
 else:
     print("a en b zijn even groot")
